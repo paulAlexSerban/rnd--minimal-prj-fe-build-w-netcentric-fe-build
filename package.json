@@ -1,0 +1,28 @@
+{
+  "name": "rnd--basic-fe-build-w-netcentric-fe-build",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "NODE_ENV=production nc-fe-build",
+    "watch:all": "nc-fe-build --watch",
+    "watch:js": "nc-fe-build --task=webpack --watch",
+    "watch:css": "nc-fe-build --task=styles --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/rnd--basic-fe-build-w-netcentric-fe-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/rnd--basic-fe-build-w-netcentric-fe-build/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/rnd--basic-fe-build-w-netcentric-fe-build#readme",
+  "dependencies": {
+    "@netcentric/fe-build": "^2.1.0"
+  },
+  "engines": {
+    
+  }
+}
